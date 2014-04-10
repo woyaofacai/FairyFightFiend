@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{653B87AB-D446-4D66-8D1B-ED76CEEC6E51}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PAL12</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\Game Engine\OgreSDK_vc10_v1-7-4\include;E:\Game Engine\OgreSDK_vc10_v1-7-4\boost_1_47;E:\Game Engine\CEGUI\CEGUI-0.7.9\cegui\include;E:\Game Engine\irrKlang-1.4.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Game Engine\OgreSDK_vc10_v1-7-4\lib\debug;E:\Game Engine\OgreSDK_vc10_v1-7-4\boost_1_47\lib;E:\Game Engine\irrKlang-1.4.0\lib\Win32-visualStudio;D:\biancheng\CEGUI\CEGUI-0.7.9\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CombatScene.cpp" />
+    <ClCompile Include="GameApplication.cpp" />
+    <ClCompile Include="GameApplicationImpl.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="GameSceneFactory.cpp" />
+    <ClCompile Include="GameScenePool.cpp" />
+    <ClCompile Include="GUIMouseBaseScene.cpp" />
+    <ClCompile Include="GUITestScene.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="HeroRival.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MazeBaseScene.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterInfoManager.cpp" />
+    <ClCompile Include="MonsterRival.cpp" />
+    <ClCompile Include="Rival.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="TerrainInfo.cpp" />
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="ValleyScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CombatScene.h" />
+    <ClInclude Include="GameApplicationImpl.h" />
+    <ClInclude Include="GameApplication.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="GameSceneFactory.h" />
+    <ClInclude Include="GameScenePool.h" />
+    <ClInclude Include="GUIMouseBaseScene.h" />
+    <ClInclude Include="GUITestScene.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="HeroRival.h" />
+    <ClInclude Include="MazeBaseScene.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterInfoManager.h" />
+    <ClInclude Include="MonsterRival.h" />
+    <ClInclude Include="Pal.h" />
+    <ClInclude Include="Rival.h" />
+    <ClInclude Include="SceneMsgID.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="TerrainInfo.h" />
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="ValleyScene.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

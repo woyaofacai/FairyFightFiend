@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maze>
+  <maze-size width="2560" depth="2560"></maze-size>
+  <start-position x="962" y="0" z="935"></start-position>
+  <rival-numbers one="0.1" two="0.2" three="0.7" />
+  <monster-tiles row="8" col="8"></monster-tiles>
+  <monster-types>
+    <monster-type id="1" probability="0.4"></monster-type>
+    <monster-type id="2" probability="0.6"></monster-type>
+  </monster-types>
+  <monsters>
+    <monster id="2" x="846.827637" y="0.000000" z="1902.523926"></monster>
+    <monster id="1" x="1336.344482" y="0.000000" z="387.157806"></monster>
+    <monster id="2" x="467.970825" y="0.000000" z="1368.877197"></monster>
+    <monster id="2" x="1488.326660" y="0.000000" z="785.973694"></monster>
+    <monster id="1" x="1793.450684" y="0.000000" z="1704.031494"></monster>
+    <monster id="2" x="504.043701" y="0.000000" z="254.890594"></monster>
+    <monster id="2" x="1628.345581" y="0.000000" z="1352.153076"></monster>
+    <monster id="1" x="527.176758" y="0.000000" z="1035.004761"></monster>
+    <monster id="1" x="196.844391" y="0.000000" z="1551.805176"></monster>
+    <monster id="2" x="73.976868" y="0.000000" z="1564.439819"></monster>
+    <monster id="1" x="865.627014" y="0.000000" z="704.733459"></monster>
+    <monster id="2" x="548.356567" y="0.000000" z="682.271790"></monster>
+    <monster id="2" x="1549.119629" y="0.000000" z="1138.828735"></monster>
+    <monster id="2" x="850.123596" y="0.000000" z="1902.401855"></monster>
+    <monster id="1" x="1866.328979" y="0.000000" z="480.544434"></monster>
+    <monster id="1" x="364.452026" y="0.000000" z="1995.239136"></monster>
+    <monster id="2" x="1130.283447" y="0.000000" z="1026.032349"></monster>
+    <monster id="2" x="1270.546509" y="0.000000" z="536.210266"></monster>
+    <monster id="2" x="1495.223877" y="0.000000" z="740.501099"></monster>
+    <monster id="2" x="1502.304199" y="0.000000" z="1217.627563"></monster>
+    <monster id="2" x="666.402161" y="0.000000" z="1814.203247"></monster>
+    <monster id="2" x="1912.778198" y="0.000000" z="1352.031006"></monster>
+    <monster id="1" x="733.848083" y="0.000000" z="792.443604"></monster>
+    <monster id="2" x="1476.424438" y="0.000000" z="982.695984"></monster>
+    <monster id="2" x="1247.535645" y="0.000000" z="725.852234"></monster>
+    <monster id="2" x="358.592468" y="0.000000" z="325.937683"></monster>
+    <monster id="1" x="741.477722" y="0.000000" z="1663.808105"></monster>
+    <monster id="1" x="840.662842" y="0.000000" z="1894.711182"></monster>
+    <monster id="2" x="1280.617676" y="0.000000" z="520.157471"></monster>
+    <monster id="2" x="504.654053" y="0.000000" z="1078.463135"></monster>
+    <monster id="1" x="1518.906250" y="0.000000" z="1512.802490"></monster>
+    <monster id="1" x="1888.546387" y="0.000000" z="1344.218262"></monster>
+    <monster id="1" x="1510.055908" y="0.000000" z="1358.623047"></monster>
+    <monster id="1" x="1568.346191" y="0.000000" z="1114.169678"></monster>
+    <monster id="2" x="212.286758" y="0.000000" z="1582.018555"></monster>
+    <monster id="2" x="351.390137" y="0.000000" z="423.413818"></monster>
+    <monster id="1" x="1147.679077" y="0.000000" z="997.894226"></monster>
+    <monster id="1" x="365.428619" y="0.000000" z="443.617035"></monster>
+    <monster id="1" x="864.528381" y="0.000000" z="1908.810791"></monster>
+    <monster id="1" x="1031.708740" y="0.000000" z="1131.565308"></monster>
+    <monster id="2" x="624.408691" y="0.000000" z="817.285645"></monster>
+    <monster id="2" x="1554.551880" y="0.000000" z="493.484283"></monster>
+    <monster id="2" x="1867.549683" y="0.000000" z="300.363190"></monster>
+    <monster id="1" x="590.472107" y="0.000000" z="751.304688"></monster>
+    <monster id="2" x="523.087280" y="0.000000" z="1055.391113"></monster>
+    <monster id="1" x="693.624695" y="0.000000" z="1497.604248"></monster>
+    <monster id="2" x="478.530243" y="0.000000" z="1232.703735"></monster>
+    <monster id="2" x="1514.877808" y="0.000000" z="1387.615601"></monster>
+    <monster id="2" x="458.326965" y="0.000000" z="1470.503784"></monster>
+    <monster id="1" x="962.675842" y="0.000000" z="645.344360"></monster>
+    <monster id="1" x="853.419617" y="0.000000" z="365.855896"></monster>
+    <monster id="1" x="904.568604" y="0.000000" z="688.192383"></monster>
+    <monster id="2" x="983.916748" y="0.000000" z="1644.215210"></monster>
+    <monster id="2" x="541.215271" y="0.000000" z="1021.271362"></monster>
+    <monster id="2" x="1266.762207" y="0.000000" z="723.776978"></monster>
+    <monster id="1" x="1264.076660" y="0.000000" z="575.701172"></monster>
+    <monster id="1" x="1522.629517" y="0.000000" z="1582.934082"></monster>
+    <monster id="1" x="902.127136" y="0.000000" z="959.074646"></monster>
+    <monster id="2" x="46.510208" y="0.000000" z="1543.504150"></monster>
+    <monster id="2" x="1523.300903" y="0.000000" z="1528.122803"></monster>
+    <monster id="1" x="640.583496" y="0.000000" z="1856.501953"></monster>
+    <monster id="2" x="1903.439453" y="0.000000" z="1353.434814"></monster>
+    <monster id="2" x="1565.172363" y="0.000000" z="499.404877"></monster>
+    <monster id="2" x="117.679375" y="0.000000" z="1557.664795"></monster>
+    <monster id="1" x="1868.648315" y="0.000000" z="483.718353"></monster>
+    <monster id="1" x="518.936768" y="0.000000" z="664.326904"></monster>
+    <monster id="1" x="1013.092407" y="0.000000" z="335.520508"></monster>
+    <monster id="2" x="1530.930542" y="0.000000" z="1498.336792"></monster>
+    <monster id="1" x="471.205811" y="0.000000" z="1215.491211"></monster>
+    <monster id="2" x="1488.631836" y="0.000000" z="771.141724"></monster>
+    <monster id="2" x="948.759460" y="0.000000" z="1310.708984"></monster>
+    <monster id="1" x="1806.390503" y="0.000000" z="1093.111938"></monster>
+    <monster id="1" x="950.651611" y="0.000000" z="1287.820068"></monster>
+    <monster id="1" x="1497.604248" y="0.000000" z="1191.442627"></monster>
+    <monster id="2" x="334.727020" y="0.000000" z="1433.149170"></monster>
+    <monster id="1" x="1228.492065" y="0.000000" z="832.056641"></monster>
+    <monster id="2" x="1501.388550" y="0.000000" z="1228.308960"></monster>
+    <monster id="1" x="1279.519043" y="0.000000" z="627.399475"></monster>
+    <monster id="1" x="869.899597" y="0.000000" z="1829.096313"></monster>
+    <monster id="1" x="357.188629" y="0.000000" z="1980.590210"></monster>
+    <monster id="2" x="892.605347" y="0.000000" z="1909.848389"></monster>
+    <monster id="1" x="1497.909424" y="0.000000" z="1145.054443"></monster>
+    <monster id="2" x="624.530762" y="0.000000" z="951.384033"></monster>
+    <monster id="1" x="1779.351196" y="0.000000" z="1099.154541"></monster>
+    <monster id="1" x="84.963531" y="0.000000" z="1552.354492"></monster>
+    <monster id="2" x="1869.319824" y="0.000000" z="489.944153"></monster>
+    <monster id="1" x="1119.235840" y="0.000000" z="1427.777954"></monster>
+    <monster id="2" x="922.147278" y="0.000000" z="966.948425"></monster>
+    <monster id="1" x="1756.706421" y="0.000000" z="1090.975586"></monster>
+    <monster id="2" x="897.549377" y="0.000000" z="1742.545898"></monster>
+    <monster id="2" x="751.426758" y="0.000000" z="1625.720947"></monster>
+    <monster id="1" x="979.277893" y="0.000000" z="1638.172485"></monster>
+    <monster id="2" x="1208.288818" y="0.000000" z="875.698120"></monster>
+    <monster id="2" x="1039.338379" y="0.000000" z="1568.712524"></monster>
+    <monster id="2" x="878.444763" y="0.000000" z="1801.446533"></monster>
+    <monster id="2" x="633.136963" y="0.000000" z="939.970093"></monster>
+    <monster id="2" x="688.070313" y="0.000000" z="863.307617"></monster>
+    <monster id="2" x="1854.670898" y="0.000000" z="286.141541"></monster>
+    <monster id="2" x="1871.517090" y="0.000000" z="580.156860"></monster>
+    <monster id="2" x="1479.476318" y="0.000000" z="1063.386963"></monster>
+  </monsters>
+  
+</maze>

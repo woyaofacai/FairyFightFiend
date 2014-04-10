@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<monsters>
+  <monster name="Zombie">
+    <mesh name="zombie.mesh" id="1"></mesh>
+    <life max="100" min="80"></life>
+    <scale value="3.0"></scale>
+    <move-speed value="10.0"></move-speed>
+    <animations>
+      <animation name="Walk" value="Walk"></animation>
+      <animation name="Idle" value="Idle"></animation>
+      <animation name="Run" value="Run"></animation>
+      <animation name="Attack" value="Attack1"></animation>
+      <animation name="Die" value="Die"></animation>
+    </animations>
+  </monster>
+
+  <monster name="Spider">
+    <mesh name="spider.mesh" id="2"></mesh>
+    <life max="220" min="180"></life>
+    <scale value="3.0"></scale>
+    <move-speed value="10.0"></move-speed>
+    <animations>
+      <animation name="Walk" value="walk"></animation>
+      <animation name="Idle" value="idle"></animation>
+      <animation name="Run" value="run"></animation>
+      <animation name="Attack" value="attack2"></animation>
+      <animation name="Die" value="die1"></animation>
+    </animations>
+  </monster>
+  
+</monsters>   
