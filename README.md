@@ -1,12 +1,12 @@
 Fairy Fight Fiend -- 《仙魔之战》
 ===============
 
-This is my first 3D Game developed by OGRE Engine and CEGUI.
+This is my first 3D Game developed by using OGRE Engine and CEGUI.
 
 It is not finished yet, and has been set aside for a long time because of a scarcity of time.
 
 
-current screenshots:
+<b>current screenshots:</b>
 
 <p>Devil Valley:</p>
 
