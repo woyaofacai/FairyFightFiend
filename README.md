@@ -1,4 +1,4 @@
-Fairy Fight Fiend -- 《仙魔之战》
+Fairy Fight Fiend -- 《仙魔之役》
 ===============
 
 This is my first 3D Game developed by using OGRE Engine and CEGUI.
